@@ -1,7 +1,7 @@
 import React from "react";
-import AddItem from "./components/AddItem";
-import AppInfo from "./components/AppInfo";
-import TodoList from "./components/TodoList";
+import AddItem from "./components/AddItem/AddItem";
+import AppInfo from "./components/AppInfo/AppInfo";
+import TodoList from "./components/TodoList/TodoList";
 import './App.scss';
 
 function App() {

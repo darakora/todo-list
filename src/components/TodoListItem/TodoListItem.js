@@ -43,7 +43,7 @@ const TodoListItem = ({ id, data, completed }) => {
                     type="button" 
                     className="btn-trash btn-sm btn-outline-light" 
                     title="Delete" 
-                    onClick={onDeleteClick }>
+                    onClick={onDeleteClick}>
                 <i className="fa fa-trash"></i>
              </button>
             </div>

@@ -1,0 +1,13 @@
+.app {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}

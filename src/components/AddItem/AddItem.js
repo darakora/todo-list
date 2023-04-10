@@ -5,7 +5,6 @@ import './AddItem.scss';
 import 'react-notifications/lib/notifications.css';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 
-
 const AddItem = () => {
     const [ data, setData ] = useState();
 
@@ -39,7 +38,7 @@ const AddItem = () => {
                     className="form-control"
                     placeholder="Enter your todos"
                     onChange={event => setData(event.target.value)}
-                    value={data || ''}
+                    value={data == null ? '' : data}
                 />
                 <button type="submit" className="btn btn-outline-light">ADD</button>
             </form>
